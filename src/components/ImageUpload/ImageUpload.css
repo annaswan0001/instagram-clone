@@ -1,11 +1,13 @@
 .imageUpload{
 display: flex;
 flex-direction: column;
+justify-content: flex-start;
 margin: 1rem auto;
 width: 60%;
 gap: 1rem;
-background-color: lightgray;
+background-color: #fff;
 padding: 2rem;
+max-width: 50rem;
 
 }
 .imageUpload__progress{

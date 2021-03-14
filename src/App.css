@@ -2,10 +2,14 @@
   background-color: #fafafa;
 }
 .app__header{
+  position: sticky;
+  top: 0;
   background-color: #fff;
   object-fit: contain;
   padding: 20px;
   border-bottom: 1px solid lightgray ;
+  display: flex;
+  justify-content: space-between;
 }
 
 .app__headerImg{
@@ -18,4 +22,8 @@
   flex-direction: column;
   padding: 2rem;
 
+}
+
+.app__posts{
+  padding: 2rem;
 }
