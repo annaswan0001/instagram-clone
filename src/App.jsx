@@ -109,18 +109,21 @@ function App() {
             />
             <form className="app__signup">
               <Input
+                className="app__input"
                 type="text"
                 placeholder="userName"
                 value={userName}
                 onChange={(e) => setUserName(e.target.value)}
               />
               <Input
+                className="app__input"
                 type="text"
                 placeholder="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
               <Input
+                className="app__input"
                 type="text"
                 placeholder="password"
                 value={password}

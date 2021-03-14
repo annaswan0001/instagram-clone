@@ -4,7 +4,6 @@ flex-direction: column;
 justify-content: flex-start;
 margin: 1rem auto;
 width: 60%;
-gap: 1rem;
 background-color: #fff;
 padding: 2rem;
 max-width: 50rem;
@@ -12,4 +11,10 @@ max-width: 50rem;
 }
 .imageUpload__progress{
     width: 100%;
+    margin-bottom: 1rem;
 }
+
+.imageUpload__input{
+    margin-bottom: 1rem;
+}
+
